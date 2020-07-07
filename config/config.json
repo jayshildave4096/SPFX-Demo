@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rcb-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rcbWebPart/RcbWebPartWebPart.js",
+          "manifest": "./src/webparts/rcbWebPart/RcbWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RcbWebPartWebPartStrings": "lib/webparts/rcbWebPart/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,24 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.rcbWebPart {
+  .container {
+    background-color: #bfbfbf;
+    padding:15px;
+  }
+  .log{
+    padding:10px;
+    text-align:left;
+    background-color: black;
+    color: #fff566;
+    font-weight: 300;
+    text-decoration-color: #fff566;
+ 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    width:auto;
+    height:auto;
+  }
+
+  
+  
+}
